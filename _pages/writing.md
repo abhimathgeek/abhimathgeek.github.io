@@ -5,7 +5,7 @@ permalink: /Projects/
 description: A collection of my reading projects.
 nav: true
 only_highlights: false
-display_categories: 
+display_categories: [2023]
 nav_order: 7
 ---
 
