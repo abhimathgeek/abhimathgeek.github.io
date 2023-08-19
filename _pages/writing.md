@@ -1,11 +1,11 @@
 ---
 layout: page
-title: writing
-permalink: /writing/
-description: A collection of my writings.
+title: Projects
+permalink: /Projects/
+description: A collection of my reading projects.
 nav: true
 only_highlights: false
-display_categories: [features, short]
+display_categories: 
 nav_order: 7
 ---
 
