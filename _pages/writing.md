@@ -18,7 +18,7 @@ nav_order: 7
   {%- if page.only_highlights -%}
     {%- assign categorized_projects = site.writing | where: "highlighted", true | where: "category", category -%}
   {%- else -%}
-    {%- assign categorized_projects = site.writing | where: "category", category -%}
+    {%- assign categorized_projects = site.writing | where: "category", category  -%}
   {%- endif -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" -%}
   <!-- Generate cards for each writing type -->
