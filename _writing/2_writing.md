@@ -9,5 +9,5 @@ outlet: Guide- Dr. Anup Dixit
 redirect: https://drive.google.com/file/d/1HXwinjSPqd7z8J5xtbHFCtdp6nKwHORv/view?usp=sharing
 img: 
 importance: 2
-category: features
+category: 2023
 ---
