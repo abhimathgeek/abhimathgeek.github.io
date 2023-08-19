@@ -20,7 +20,7 @@ nav_order: 7
   {%- else -%}
     {%- assign categorized_projects = site.writing | where: "category", category -%}
   {%- endif -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" | sort: "date" -%}
+  {%- assign sorted_projects = categorized_projects | sort: "importance" -%}
   <!-- Generate cards for each writing type -->
   <div class="list-style mx-auto">
     {%- for project in categorized_projects -%}
@@ -32,9 +32,9 @@ nav_order: 7
 {%- else -%}
 <!-- Display writing without categories -->
   {%- if page.only_highlights -%}
-  {%- assign sorted_projects = site.writing | where: "highlighted", true | sort: "importance" | sort: "date" -%}
+  {%- assign sorted_projects = site.writing | where: "highlighted", true | sort: "importance" -%}
   {%- else -%}
-  {%- assign sorted_projects = site.writing | sort: "importance" | sort: "date" -%}
+  {%- assign sorted_projects = site.writing | sort: "importance" -%}
   {%- endif -%}
   <!-- Generate cards for each project -->
   <div class="list-style mx-auto">
