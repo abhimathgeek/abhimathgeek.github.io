@@ -1,21 +1,18 @@
 ---
 layout: about-custom
-title: about
+title: About me
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
-  align: right
+  align: center
   image: prof_pic_square.jpg
   image_circular: true # crops the image to make it circular
-  address: >
-    <p>555 your office number<br>
-       123 your address street<br>
-       Your City, State 12345</p>
+  address: 
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
