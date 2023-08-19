@@ -1,12 +1,14 @@
 ---
 layout: page
-title: "Writing piece 1"
-description: Description of writing piece 1
-outlet: Wikipedia
-date: "2021-09-17 19:29:00"
-redirect: https://en.wikipedia.org/wiki/Writing
-img: assets/img/12.jpg
+title: "Analytic Number Theory"
+description: I studied the proofs of prime number theorem, Siegel‐Walfisz theorem, and Bombieri‐Vinogradov theorem. I mainly followed
+the texts of “Multiplicative Number Theory” by Davenport, Montgomery‐Vaughan and “The Distribution of Prime Numbers” by
+Dimitris Koukoulopoulos.
+outlet: Under Dr. Sneha Chaubey
+date: 
+redirect: 
+img: 
 importance: 1
-category: features
+category: 2023
 highlighted: true
 ---
