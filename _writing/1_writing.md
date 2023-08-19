@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Analytic Number Theory"
-description: I studied 
+description: I studie
 outlet: Under Dr. Sneha Chaubey
 date: 
 redirect: 
