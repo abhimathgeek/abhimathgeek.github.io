@@ -2,7 +2,7 @@
 layout: about-custom
 title: About me
 permalink: /
-subtitle: Final year undergrad at [IIIT Delhi](https://www.iiitd.ac.in/)
+subtitle: Final year undergrad at IIIT Delhi
 
 profile:
   align: left
