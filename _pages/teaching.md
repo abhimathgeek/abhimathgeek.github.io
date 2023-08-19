@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Talks and Presentations
-permalink: /Talks and Presentations/
+title: Talks and Workshops
+permalink: /Talks and Workshops/
 description: 
 nav: true
 only_highlights: false
