@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Projects
-permalink: /Projects/
-description: A collection of my reading projects.
+title: Other Math Stuff
+permalink: /Other Math Stuff/
+description: I have proposed a couple of problems for math competitions and magazines in past.
 nav: true
 only_highlights: false
-display_categories: [2023]
+display_categories: [Problem Proposals]
 nav_order: 7
 ---
 
