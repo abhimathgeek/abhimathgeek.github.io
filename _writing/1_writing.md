@@ -5,9 +5,6 @@ description: I studied the proofs of prime number theorem, Siegel‐Walfisz theo
 the texts of “Multiplicative Number Theory” by Davenport, Montgomery‐Vaughan and “The Distribution of Prime Numbers” by
 Dimitris Koukoulopoulos.
 outlet: Under Dr. Sneha Chaubey
-date: 
-redirect: 
-img: 
 importance: 1
 category: 2023
 highlighted: true
