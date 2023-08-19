@@ -5,7 +5,7 @@ permalink: /Talks and Presentations/
 description: 
 nav: true
 only_highlights: false
-display_categories: [Select Talks and Presentations, Select Talks and workshops attended]
+display_categories: [Selected Talks and Presentations, Selected Talks and workshops attended]
 nav_order: 7
 ---
 
