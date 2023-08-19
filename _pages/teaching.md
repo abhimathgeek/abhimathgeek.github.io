@@ -1,12 +1,47 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Talks and Presentations
+permalink: /Talks and Presentations/
+description: 
 nav: true
-nav_order: 5
+only_highlights: false
+display_categories: [Select Talks and Presentations, Select Talks and workshops attended]
+nav_order: 7
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<!-- pages/writing.md -->
+<div class="writing">
+{%- if site.enable_project_categories and page.display_categories -%}
+  <!-- Display categorized writing -->
+  {%- for category in page.display_categories -%}
+  <h2 class="category">{{ category }}</h2>
+  {%- if page.only_highlights -%}
+    {%- assign categorized_projects = site.writing | where: "highlighted", true | where: "category", category -%}
+  {%- else -%}
+    {%- assign categorized_projects = site.writing | where: "category", category  -%}
+  {%- endif -%}
+  {%- assign sorted_projects = categorized_projects | sort: "importance" -%}
+  <!-- Generate cards for each writing type -->
+  <div class="list-style mx-auto">
+    {%- for project in categorized_projects -%}
+      {% include writing.html %}
+    {%- endfor %}
+  </div>
+  {% endfor %}
 
-Organize your courses by years, topics, or universities, however you like!
+{%- else -%}
+<!-- Display writing without categories -->
+  {%- if page.only_highlights -%}
+  {%- assign sorted_projects = site.writing | where: "highlighted", true | sort: "importance" -%}
+  {%- else -%}
+  {%- assign sorted_projects = site.writing | sort: "importance" -%}
+  {%- endif -%}
+  <!-- Generate cards for each project -->
+  <div class="list-style mx-auto">
+    {%- for project in sorted_projects -%}
+      {% include writing.html %}
+    {%- endfor %}
+  </div>
+{%- endif -%}
+
+</div>
