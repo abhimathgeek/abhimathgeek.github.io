@@ -1,5 +1,5 @@
 ---
-layout: about-custom
+layout: about
 title: About me
 permalink: /
 subtitle: Final year undergrad at IIIT Delhi
