@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://abhimath.com/sitemap.xml
+Sitemap: https://abhimathgeek.github.io/sitemap.xml
