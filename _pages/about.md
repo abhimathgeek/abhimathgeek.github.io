@@ -2,7 +2,7 @@
 layout: about
 title: About me
 permalink: /
-subtitle: Final year undergrad at IIIT Delhi
+subtitle: Incoming Math PhD student at UIUC
 
 profile:
   align: left
