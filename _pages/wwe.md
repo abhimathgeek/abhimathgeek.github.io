@@ -5,7 +5,7 @@ permalink: /Other Math Stuff/
 description: I have proposed a couple of problems for math competitions and magazines in past.
 nav: true
 only_highlights: false
-display_categories: [Problem Proposals]
+display_categories: [Mathematics Summer Program IIITD] [PiDay 2024] [Problem Proposals] 
 nav_order: 7
 ---
 
