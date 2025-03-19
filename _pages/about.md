@@ -2,7 +2,7 @@
 layout: about
 title: About me
 permalink: /
-subtitle: Incoming Math PhD student at UIUC
+subtitle: Math PhD student at UIUC
 
 profile:
   align: left
