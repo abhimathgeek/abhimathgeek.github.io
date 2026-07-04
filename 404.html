@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        var path = window.location.pathname;
+        var newDomain = "https://abhishekjha-math.github.io";
+        
+        // Put your three specific paths right here:
+        var pathMap = {
+            "/publications/": "/publications/",
+            "/Talks%20and%20Workshops/": "/Talks/"
+        };
+        
+        if (pathMap[path]) {
+            // Sends the mapped links to their specific new pages
+            window.location.replace(newDomain + pathMap[path]);
+        } else {
+            // Safety net: Sends any other broken link to your new homepage
+            window.location.replace(newDomain + "/");
+        }
+    </script>
+</head>
+<body>
+    <p>This page has moved! Redirecting you to the new site...</p>
+</body>
+</html>
